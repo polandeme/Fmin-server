@@ -1,0 +1,15 @@
+{
+  "name": "fmin-server",
+  "version": "1.0.0",
+  "description": "fmin app server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "polandeme",
+  "license": "ISC",
+  "devDependencies": {
+    "canvas": "^1.3.5",
+    "express": "^4.13.3"
+  }
+}
