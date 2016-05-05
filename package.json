@@ -11,5 +11,10 @@
   "devDependencies": {
     "canvas": "^1.3.5",
     "express": "^4.13.3"
+  },
+  "dependencies": {
+    "mysql": "^2.10.2",
+    "connect": "^3.4.1",
+    "body-parser": "^1.15.0"
   }
 }
