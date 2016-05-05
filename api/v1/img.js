@@ -6,6 +6,7 @@ var parse = require('url').parse;
 var fs = require('fs');
 
 exports.maxScore = function(req, resss, next) {
+    resss.header("Access-Control-Allow-Origin", "*");
 	var canvas = new Canvas(640, 1136);
   	var ctx = canvas.getContext('2d');
     var url = 'https://api.500px.com/v1/photos?feature=popular&consumer_key=zIhfdhAQ2qM2gHG4q8I1EqcU9AenE7wrYNCzRtA5&sort=votes_count&image_size=4';
